@@ -53,7 +53,7 @@ spawn(
                                 wait(0.5)
                                 i = i - 1
                                 local CFrameEnd = CFrame.new(v.Character.HumanoidRootPart.position)
-                                local Time = 0.6
+                                local Time = 0.5
                                 local tween =
                                     game:GetService("TweenService"):Create(
                                     game.Players.LocalPlayer.Character.HumanoidRootPart,
